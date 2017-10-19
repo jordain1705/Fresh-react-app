@@ -1,6 +1,6 @@
 import React from 'react';
 import UserList from '../containers/user_list';
-
+import UserDetail from '../containers/user_detail';
 
 const App = () => (
 
@@ -9,6 +9,7 @@ const App = () => (
     <UserList/>
     <hr/>
     <h2>User Detail:</h2>
+    <UserDetail/>
   </div>
 );
 
